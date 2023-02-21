@@ -52,8 +52,7 @@ const response = fetch('https://secure.splitwise.com/api/v3.0/create_expense', {
     method: 'POST',
     headers: {
         'Authorization': 'Bearer ' + AUTH_TOKEN,
-        'Content-Type': 'application/json',
-        'Origin': 'http://localhost'
+        'Content-Type': 'application/json'
     },
     body: {
         description: description,
