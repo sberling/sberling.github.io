@@ -50,7 +50,7 @@ switch(forWhom) {
 
 const response = fetch('https://secure.splitwise.com/api/v3.0/create_expense', {
     method: 'POST',
-    mode: 'no-cors',
+//     mode: 'no-cors',
     headers: {
         'Authorization': 'Bearer ' + AUTH_TOKEN,
         'Content-Type': 'application/json'
